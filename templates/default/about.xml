@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EasyPayTemplate>
+  <TemplateName>پوسته پیشفرض</TemplateName>
+  <Description>پوسته پیشفرض اسکریپت آسان پرداخت پی لاین</Description>
+  <Author>فرحان نیسی</Author>
+  <version>1.0</version>
+  <License>LGPL-2.1</License>
+</EasyPayTemplate>

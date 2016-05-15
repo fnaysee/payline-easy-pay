@@ -1,0 +1,19 @@
+Time : 11:29:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1
+Raw SQL : SELECT * FROM transactions LIMIT 15 OFFSET 4 ORDER BY id DESC
+
+Time : 11:28:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC' at line 1
+Raw SQL : SELECT * FROM transactions LIMIT 15 OFFSET 4 ORDER BY id DESC
+
+Time : 01:12:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM transactions ORDER BY id DESC LIMIT 15 OFFSET
+
+Time : 01:10:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM transactions ORDER BY id DESC LIMIT 15 OFFSET
+
+Time : 00:02:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15' at line 1
+Raw SQL : SELECT * FROM transactions ORDER BY id DESC LIMIT 15 OFFSET -15

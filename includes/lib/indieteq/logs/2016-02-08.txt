@@ -1,0 +1,23 @@
+Time : 23:58:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-15' at line 1
+Raw SQL : SELECT * FROM transactions ORDER BY id DESC LIMIT 15 OFFSET -15
+
+Time : 23:56:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC LIMIT 15 OFFSET 4' at line 1
+Raw SQL : SELECT * FROM transactionsORDER BY id DESC LIMIT 15 OFFSET 4
+
+Time : 23:56:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC LIMIT 15 OFFSET 4' at line 1
+Raw SQL : SELECT * FROM transactionsORDER BY id DESC LIMIT 15 OFFSET 4
+
+Time : 23:55:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC LIMIT 15 OFFSET 0' at line 1
+Raw SQL : SELECT * FROM transactionsORDER BY id DESC LIMIT 15 OFFSET 0
+
+Time : 23:52:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC LIMIT 15 OFFSET 0' at line 1
+Raw SQL : SELECT * FROM transactionsORDER BY id DESC LIMIT 15 OFFSET 0
+
+Time : 23:38:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC LIMIT 15 OFFSET 15' at line 1
+Raw SQL : SELECT * FROM transactionsORDER BY id DESC LIMIT 15 OFFSET 15

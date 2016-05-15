@@ -1,0 +1,319 @@
+﻿html {
+    color: #000;
+    background: #FFF;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+#yui3-css-stamp.cssreset {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+a:active{
+    border: none;
+}
+
+@font-face {
+    font-family: 'SOGAND';
+    src: url('../fonts/SOGAND.eot?#iefix') format('embedded-opentype'), url('../fonts/SOGAND.woff') format('woff'), url('../fonts/SOGAND.ttf') format('truetype'), url('../fonts/SOGAND.svg#SOGAND') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'), url('../fonts/BYekan.woff') format('woff'), url('../fonts/BYekan.ttf') format('truetype'), url('../fonts/BYekan.svg#BYekan+') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    color: #f4f4f4;
+    display: table;
+    width: 100%;
+    font-family: BYekan;
+}
+
+table,tbody,tr{
+    width: 100%;
+}
+
+table{
+    margin: 10px;
+}
+
+tr{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+th,td{
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+th{
+    vertical-align: top;
+    width: 30%;
+}
+
+td{
+    width: 55%;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border-radius: 4px;
+    border: 1px solid #ADADAD;
+    transition: ease .2s;
+    background-color: #EFEFEF;
+}
+
+input[type='checkbox'], input[type='radio']{
+    margin-left: 5px;
+}
+
+input[type='text']:focus, textarea:focus{
+    border: 1px solid red;
+}
+
+.wrapp {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    margin: 30px 0px 0px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5% 2.5%;
+}
+
+.site-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: SOGAND;
+}
+
+    .site-title a {
+        display: inline-block;
+        margin-left: 20px;
+        vertical-align: middle;
+    }
+
+    .site-title img {
+        margin-top: 20px;
+    }
+
+.rightpanel {
+    width: 45%;
+    display: inline-block;
+    background-color: #C8C8C8;
+    border-radius: 9px;
+    color: #271D15;
+}
+
+.leftpanel {
+    width: 45%;
+    float: left;
+}
+
+#form-wrap{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: rgb(251, 251, 251)
+}
+
+.payment-form {
+    width: 88%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.captcha-container table{
+    margin: 0;
+}
+
+.captcha-container table th, .captcha-container table td{
+    width: auto;
+    padding: 0;
+}
+
+#support {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgb(77, 62, 50);
+    z-index: 9999;
+}
+
+#support a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+#support img{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.error {
+    margin: 4px;
+    background-color: #E0E0E0;
+    padding: 2px 4px 2px 0px;
+    border-right: 4px solid rgb(42, 143, 191);
+}
+
+.updated{
+    border-right: 4px solid #2ABF8A;
+}
+
+.button{
+    background-color: #1E5068;
+    padding: 5px 15px;
+    color: #fff;
+
+}
+
+.button:hover{
+    background-color: #1C6386;
+    color: #fff;
+}
+
+.button:focus{
+    background: #1c6386; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #1c6386 0%, #1e5068 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #1c6386 0%,#1e5068 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #1c6386 0%,#1e5068 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c6386', endColorstr='#1e5068',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #fff;
+}
+
+/*Support form*/
+
+.support_form_title{
+    text-align: center;
+    font-family: SOGAND;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.support_form textarea{
+    width: 200px;
+    height: 140px;
+}
+
+/*Media queries*/
+
+@media (max-width: 1030px) {
+    .wrapp {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .main{
+        padding: 0;
+    }
+
+    .leftpanel {
+        float: none;
+        margin: 0 auto;
+        width: 400px;
+        display: block;
+    }
+
+    .rightpanel{
+        margin: 0 auto;
+        width: 400px;
+        max-width: 400px;
+        min-width: 300px;
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .leftpanel {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+
+    .rightpanel{
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+}
